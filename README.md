@@ -1,2 +1,2 @@
 # Calculadora
-Uma calculadora que fiz em: HTML5, CSS, JS.
+Uma calculadora que fiz como projeto pessoal.
