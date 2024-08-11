@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    text-align: center;
+}
+#bodyTitle {
+    padding: 10px;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0px 3px black;
+}
+#calc {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 0px 3px black;
+    background-color: rgb(12, 12, 12);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button {
+    margin: 2px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0px 3px rgb(3, 3, 3);
+}
+.button:hover {
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0px 3px rgb(0, 0, 0);
+}
+#buttonGreen {
+    background-color: rgb(45, 163, 34);
+    box-shadow: 0px 3px rgb(45, 90, 24);
+}
+#buttonGreen:hover {
+    background-color: rgb(45, 90, 34);
+    box-shadow: 0px 3px rgb(45, 50, 24);
+}
+#result {
+    color: black;
+    text-align: right;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 100%px;
+    height: 30px;
+}
